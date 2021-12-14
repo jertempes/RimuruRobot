@@ -82,17 +82,17 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✨ sᴀʏᴀ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴠɪʀᴛᴜᴀʟ ᴍᴜsɪᴄ  ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ - ᴍᴜsɪᴄ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ ɢʀᴏᴜᴘ ᴀɴᴅᴀ ᴅᴀɴ ᴊᴀᴅɪᴋᴀɴ sᴀʏᴀ ᴀᴅᴍɪɴ ᴅᴀɴ ʙᴇʀɪ ɪᴢɪɴ ᴍᴀɴᴀɢᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ [✨](https://telegra.ph/file/f8c44e0c75e592ff49137.jpg)
+I'm a anime theme management bot(https://telegra.ph/file/39e62057129aa067f5b3c.jpg)
 ───────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
 ───────────────────────
-➛ ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ /help ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ғɪᴛᴜʀ ᴍᴇɴᴀʀɪᴋ ᴅᴀʀɪ ʙᴏᴛ ᴠɪʀᴛᴜᴀʟ ᴍᴜsɪᴄ. 
+Click /help to see available commands.
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="About Virtual Music", callback_data="emiko_"),
+        InlineKeyboardButton(text="About Rimuru", callback_data="emiko_"),
     ],
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
@@ -102,7 +102,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ Add Turbo To Your Group ➗", url="t.me/Virtualexmusicbot?startgroup=new"),
+            text="➗ Add Rimuru To Your Group ➗", url="t.me/RimutemRobot?startgroup=new"),
     ],
 ]
 
@@ -110,10 +110,10 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-EMI_IMG = "https://telegra.ph/file/f8c44e0c75e592ff49137.jpg"
+EMI_IMG = "https://telegra.ph/file/1a8a2103b395df1b7d0c2.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @Biarenakliatnyaaaa \
+ You can support the project by contacting @Oreomuffinn \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -382,7 +382,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/UserbotMaps/TurboRobot"),
+                    InlineKeyboardButton(text="Source Code", url="https://github.com/jertempes/RimuruRobot"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
@@ -441,8 +441,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/Virtualllnihsad"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/bombleebas"),
+                    InlineKeyboardButton(text="Support", url="t.me/rimutempessupport"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/rimutempessupport"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
@@ -789,7 +789,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Bot Virtual Sudah Aktif..!**
+                f"""**Rimuru Sudah Aktif..!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",

@@ -9,7 +9,7 @@ from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 DEFAULT_WELCOME_MESSAGES = [
     "{first} is here!",  # Discord welcome messages copied
     "Ready player {first}",
-    "Genos, {first} is here.",
+    "Rimuru, {first} is here.",
     "A wild {first} appeared.",
     "{first} came in like a Lion!",
     "{first} has joined your party.",
